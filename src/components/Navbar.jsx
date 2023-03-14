@@ -7,9 +7,31 @@ import { logo, menu, close } from '../assets';
 const Navbar = () => {
 	const [active, setActive] = useState('');
 	const [toggle, setToggle] = useState(false);
+	const [scrolled, setScrolled] = useState(false);
+
+	useEffect(() => {
+		const handleScroll = () => {
+			const scrollTop = window.scrollY;
+			if (scrollTop > 100) {
+				setScrolled(true);
+			} else {
+				setScrolled(false);
+			}
+		};
+
+		window.addEventListener('scroll', handleScroll);
+
+		return () => window.removeEventListener('scroll', handleScroll);
+	}, []);
 
 	return (
-		<nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
+		<nav
+			className={`${
+				styles.paddingX
+			} w-full flex items-center py-5 fixed top-0 z-20 bg-primary ${
+				scrolled ? 'bg-primary' : 'bg-transparent'
+			}`}
+		>
 			<div className="w-full flex justify-between items-center max-w-7xl mx-auto">
 				<Link
 					to="/"
@@ -19,9 +41,16 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<img src={logo} alt="logo" className="w-9 aspect-square object-contain" />
+					<img
+						src={logo}
+						alt="logo"
+						className="w-9 aspect-square object-contain"
+					/>
 					<p className="text-white text-[18px] font-bold cursor-pointer flex">
-						Bayu&nbsp;<span className="hidden md:block">|&nbsp;Frontend Developer</span>
+						Bayu&nbsp;
+						<span className="hidden md:block">
+							|&nbsp;Frontend Developer
+						</span>
 					</p>
 				</Link>
 
@@ -30,12 +59,18 @@ const Navbar = () => {
 						return (
 							<li
 								key={link.id}
-								onClick={() => setActive(link.title)}
+								onClick={() =>
+									setActive(link.title)
+								}
 								className={`${
-									active === link.title ? 'text-white' : 'text-secondary'
+									active === link.title
+										? 'text-white'
+										: 'text-secondary'
 								} hover:text-white active:scale-95 text-[18px] font-medium cursor-pointer duration-150`}
 							>
-								<a href={`#${link.id}`}>{link.title}</a>
+								<a href={`#${link.id}`}>
+									{link.title}
+								</a>
 							</li>
 						);
 					})}
@@ -60,14 +95,25 @@ const Navbar = () => {
 									<li
 										key={link.id}
 										onClick={() => {
-											setToggle(!toggle);
-											setActive(link.title);
+											setToggle(
+												!toggle
+											);
+											setActive(
+												link.title
+											);
 										}}
 										className={`${
-											active === link.title ? 'text-white' : 'text-secondary'
+											active ===
+											link.title
+												? 'text-white'
+												: 'text-secondary'
 										} font-poppins font-medium cursor-pointer text-[1rem]`}
 									>
-										<a href={`#${link.id}`}>{link.title}</a>
+										<a
+											href={`#${link.id}`}
+										>
+											{link.title}
+										</a>
 									</li>
 								);
 							})}
