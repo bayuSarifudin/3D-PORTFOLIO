@@ -33,6 +33,9 @@ import {
 	php,
 	refactory,
 	aladinmall,
+	linkedin,
+	ig,
+	github,
 } from '../assets';
 
 export const navLinks = [
@@ -43,6 +46,10 @@ export const navLinks = [
 	{
 		id: 'work',
 		title: 'Work',
+	},
+	{
+		id: 'socmed',
+		title: 'Media',
 	},
 	{
 		id: 'contact',
@@ -62,6 +69,24 @@ const services = [
 	{
 		title: 'Working With API',
 		icon: backend,
+	}
+];
+
+const sosmed = [
+	{
+		title: 'Linkedin',
+		icon: linkedin,
+		url: 'https://www.linkedin.com/in/bayusarifudin/'
+	},
+	{
+		title: 'Instagram',
+		icon: ig,
+		url: 'https://www.instagram.com/sarifudinbayu/'
+	},
+	{
+		title: 'Github',
+		icon: github,
+		url: 'https://github.com/bayuSarifudin'
 	}
 ];
 
@@ -253,4 +278,4 @@ const projects = [
 	},
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, sosmed };
