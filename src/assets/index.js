@@ -3,7 +3,6 @@ import backend from './backend.png';
 import creator from './creator.png';
 import mobile from './mobile.png';
 import web from './web.png';
-import github from './github.png';
 import rightArrow from './rightArrow.svg';
 import menu from './menu.svg';
 import close from './close.svg';
@@ -41,6 +40,10 @@ import uipod from './uipod.png';
 import lontara from './lontara.png';
 import aladinmall from './aladinmall.png';
 import contactMail from './contactMail.svg';
+
+import github from './sosmed/github.png';
+import ig from './sosmed/ig.png';
+import linkedin from './sosmed/linkedin.png';
 
 export {
 	logo,
@@ -82,5 +85,7 @@ export {
 	ci,
 	php,
 	refactory,
-	aladinmall
+	aladinmall,
+	ig,
+	linkedin
 };
