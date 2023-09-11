@@ -29,6 +29,10 @@ import {
 	vue,
 	uia,
 	digitalent,
+	ci,
+	php,
+	refactory,
+	aladinmall,
 } from '../assets';
 
 export const navLinks = [
@@ -55,6 +59,10 @@ const services = [
 		title: 'Progressive WebApp',
 		icon: mobile,
 	},
+	{
+		title: 'Working With API',
+		icon: backend,
+	}
 ];
 
 const technologies = [
@@ -69,6 +77,10 @@ const technologies = [
 	{
 		name: 'JavaScript',
 		icon: javascript,
+	},
+	{
+		name: 'PHP',
+		icon: php,
 	},
 	{
 		name: 'TypeScript',
@@ -98,6 +110,10 @@ const technologies = [
 		name: 'Figma',
 		icon: figma,
 	},
+	{
+		name: 'Code Igniter',
+		icon: ci
+	}
 ];
 
 const experiences = [
@@ -125,6 +141,20 @@ const experiences = [
 			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
 			'Implementing responsive design and ensuring cross-browser compatibility.',
 			'Participating in code reviews and providing constructive feedback to other developers.',
+		],
+	},
+	{
+		title: 'Junior Software Developer',
+		company_name: 'Refactory',
+		icon: refactory,
+		iconBg: '#E6DEDD',
+		date: 'April 2023 - Now',
+		points: [
+			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+			'Working on a several project as front-end or back-end developer',
+			'Create End Point using code igniter, asp.net, and create an RPC from postgres function',
+			'Build interactive and responsive ui',
+			'Partisipate in Sprint planning and Daily Standup Meeting'
 		],
 	},
 ];
@@ -195,6 +225,31 @@ const projects = [
 		],
 		image: lontara,
 		source_code_link: 'https://lontara.app/company/',
+	},
+	{
+		name: 'Aladin Mall',
+		description:
+			"It's national scale E-Commerce from MNC group, build using the latest version of Nextjs, Typescript and also tailwind css as it's css framework. Aladin Mall using supabase as it's main database, as its fast and convenience. It also has rpc to fasten up the data transfer even more",
+		tags: [
+			{
+				name: 'Nextjs',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'tailwindcss',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'Typescript',
+				color: 'pink-text-gradient',
+			},
+			{
+				name: 'Supabase',
+				color: 'blue-text-gradient',
+			},
+		],
+		image: aladinmall,
+		source_code_link: 'https://aladinmall.id/',
 	},
 ];
 
