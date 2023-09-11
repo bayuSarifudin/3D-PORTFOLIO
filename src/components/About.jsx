@@ -45,11 +45,7 @@ const About = () => {
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 				variants={fadeIn('', '', 0.1, 1)}
 			>
-				I'm Bayu Sarifudin, a frontend Developer <br /> For the past year,
-				I've been dedicating my time to learn and built websites. I like to
-				create high functiong responsive websites with good user experience
-				using the latest technology and frameworks such as Reactjs and
-				Angular
+				I'm Bayu Sarifudin, <br /> an enthusiastic Junior Frontend Developer with 1 year of hands-on experience in web development. Proficient in HTML, CSS, and JavaScript, I have a strong foundation in building user interfaces and creating visually appealing websites.<br /> My year of experience includes collaborating with senior developers to deliver responsive and user-friendly web applications. I am passionate about continuous learning and staying updated with the latest frontend technologies to enhance my skills and contribute effectively to dynamic development teams.
 			</motion.p>
 
 			<div className="mt-20 flex flex-wrap gap-10">
