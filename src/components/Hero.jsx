@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../style';
 import { ComputersCanvas } from './canvas';
+import { hello } from '../assets';
 
 const Hero = () => {
 	return (
@@ -26,7 +27,12 @@ const Hero = () => {
 					</p>
 				</div>
 			</div>
+			
 			<ComputersCanvas />
+
+			<div className='md:hidden absolute top-[400px] '>
+				<img src={hello} alt="" />
+			</div>
 
 			<div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
 				<a href="#about">
