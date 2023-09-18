@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 
-import { contactMail } from '../assets';
+import { contactMail, world } from '../assets';
 
 import { styles } from '../style';
 import { EarthCanvas } from './canvas';
@@ -58,10 +58,14 @@ const Contact = () => {
 
 			<motion.div
 				variants={slideIn('right', 'tween', 0.2, 1)}
-				className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+				className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] hidden md:block"
 			>
 				<EarthCanvas />
 			</motion.div>
+
+			<div className='block md:hidden'>
+						<img src={world} alt="" />
+			</div>
 		</div>
 	);
 };

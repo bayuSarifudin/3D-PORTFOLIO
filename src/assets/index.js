@@ -6,6 +6,8 @@ import web from './web.png';
 import rightArrow from './rightArrow.svg';
 import menu from './menu.svg';
 import close from './close.svg';
+import hello from './hello.svg';
+import world from './world.svg'
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -87,5 +89,7 @@ export {
 	refactory,
 	aladinmall,
 	ig,
-	linkedin
+	linkedin,
+	hello,
+	world
 };
