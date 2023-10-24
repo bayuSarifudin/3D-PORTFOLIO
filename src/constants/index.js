@@ -36,41 +36,42 @@ import {
 	linkedin,
 	ig,
 	github,
-} from '../assets';
+	nextjs
+} from '../assets'
 
 export const navLinks = [
 	{
 		id: 'about',
-		title: 'About',
+		title: 'About'
 	},
 	{
 		id: 'work',
-		title: 'Work',
+		title: 'Work'
 	},
 	{
 		id: 'socmed',
-		title: 'Media',
+		title: 'Media'
 	},
 	{
 		id: 'contact',
-		title: 'Contact',
-	},
-];
+		title: 'Contact'
+	}
+]
 
 const services = [
 	{
 		title: 'Responsive Web Design',
-		icon: web,
+		icon: web
 	},
 	{
 		title: 'Progressive WebApp',
-		icon: mobile,
+		icon: mobile
 	},
 	{
 		title: 'Working With API',
-		icon: backend,
+		icon: backend
 	}
-];
+]
 
 const sosmed = [
 	{
@@ -88,58 +89,62 @@ const sosmed = [
 		icon: github,
 		url: 'https://github.com/bayuSarifudin'
 	}
-];
+]
 
 const technologies = [
 	{
 		name: 'HTML 5',
-		icon: html,
+		icon: html
 	},
 	{
 		name: 'CSS 3',
-		icon: css,
+		icon: css
 	},
 	{
 		name: 'JavaScript',
-		icon: javascript,
+		icon: javascript
 	},
 	{
 		name: 'PHP',
-		icon: php,
+		icon: php
 	},
 	{
 		name: 'TypeScript',
-		icon: typescript,
+		icon: typescript
 	},
 	{
 		name: 'React JS',
-		icon: reactjs,
+		icon: reactjs
+	},
+	{
+		name: 'Next JS',
+		icon: nextjs
 	},
 	{
 		name: 'Tailwind CSS',
-		icon: tailwind,
+		icon: tailwind
 	},
 	{
 		name: 'Angular',
-		icon: angular,
+		icon: angular
 	},
 	{
 		name: 'Vue',
-		icon: vue,
+		icon: vue
 	},
 	{
 		name: 'Git',
-		icon: git,
+		icon: git
 	},
 	{
 		name: 'Figma',
-		icon: figma,
+		icon: figma
 	},
 	{
 		name: 'Code Igniter',
 		icon: ci
 	}
-];
+]
 
 const experiences = [
 	{
@@ -152,8 +157,8 @@ const experiences = [
 			'Learn about basic technology in web development',
 			'Learn how to use javascript to make a change with DOM',
 			'Work with api to serve the data from the database to the front application',
-			'Working as a team on a small project',
-		],
+			'Working as a team on a small project'
+		]
 	},
 	{
 		title: 'Web Frontend Developer Intern',
@@ -165,24 +170,24 @@ const experiences = [
 			'Help to Develope and maintain web applications using latest and other related technologies.',
 			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
 			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
-		],
+			'Participating in code reviews and providing constructive feedback to other developers.'
+		]
 	},
 	{
-		title: 'Junior Software Developer',
+		title: 'Intensive Pairing Software Engineer',
 		company_name: 'Refactory',
 		icon: refactory,
 		iconBg: '#E6DEDD',
-		date: 'April 2023 - Now',
+		date: 'Jul 2023 - Oct 2023',
 		points: [
 			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
 			'Working on a several project as front-end or back-end developer',
 			'Create End Point using code igniter, asp.net, and create an RPC from postgres function',
 			'Build interactive and responsive ui',
 			'Partisipate in Sprint planning and Daily Standup Meeting'
-		],
-	},
-];
+		]
+	}
+]
 
 const testimonials = [
 	{
@@ -190,23 +195,23 @@ const testimonials = [
 		name: 'Sara Lee',
 		designation: 'CFO',
 		company: 'Acme Co',
-		image: 'https://randomuser.me/api/portraits/women/4.jpg',
+		image: 'https://randomuser.me/api/portraits/women/4.jpg'
 	},
 	{
 		testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
 		name: 'Chris Brown',
 		designation: 'COO',
 		company: 'DEF Corp',
-		image: 'https://randomuser.me/api/portraits/men/5.jpg',
+		image: 'https://randomuser.me/api/portraits/men/5.jpg'
 	},
 	{
 		testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
 		name: 'Lisa Wang',
 		designation: 'CTO',
 		company: '456 Enterprises',
-		image: 'https://randomuser.me/api/portraits/women/6.jpg',
-	},
-];
+		image: 'https://randomuser.me/api/portraits/women/6.jpg'
+	}
+]
 
 const projects = [
 	{
@@ -216,19 +221,19 @@ const projects = [
 		tags: [
 			{
 				name: 'angular',
-				color: 'blue-text-gradient',
+				color: 'blue-text-gradient'
 			},
 			{
 				name: 'api',
-				color: 'green-text-gradient',
+				color: 'green-text-gradient'
 			},
 			{
 				name: 'tailwind',
-				color: 'pink-text-gradient',
-			},
+				color: 'pink-text-gradient'
+			}
 		],
 		image: uipod,
-		source_code_link: 'https://www.uipod.id/',
+		source_code_link: 'https://www.uipod.id/'
 	},
 	{
 		name: 'Usaha Insan Aksara Company Profile',
@@ -237,19 +242,19 @@ const projects = [
 		tags: [
 			{
 				name: 'html',
-				color: 'blue-text-gradient',
+				color: 'blue-text-gradient'
 			},
 			{
 				name: 'tailwindcss',
-				color: 'green-text-gradient',
+				color: 'green-text-gradient'
 			},
 			{
 				name: 'javascript',
-				color: 'pink-text-gradient',
-			},
+				color: 'pink-text-gradient'
+			}
 		],
 		image: lontara,
-		source_code_link: 'https://lontara.app/company/',
+		source_code_link: 'https://lontara.app/company/'
 	},
 	{
 		name: 'Aladin Mall',
@@ -258,24 +263,24 @@ const projects = [
 		tags: [
 			{
 				name: 'Nextjs',
-				color: 'blue-text-gradient',
+				color: 'blue-text-gradient'
 			},
 			{
 				name: 'tailwindcss',
-				color: 'green-text-gradient',
+				color: 'green-text-gradient'
 			},
 			{
 				name: 'Typescript',
-				color: 'pink-text-gradient',
+				color: 'pink-text-gradient'
 			},
 			{
 				name: 'Supabase',
-				color: 'blue-text-gradient',
-			},
+				color: 'blue-text-gradient'
+			}
 		],
 		image: aladinmall,
-		source_code_link: 'https://aladinmall.id/',
-	},
-];
+		source_code_link: 'https://aladinmall.id/'
+	}
+]
 
-export { services, technologies, experiences, testimonials, projects, sosmed };
+export { services, technologies, experiences, testimonials, projects, sosmed }
