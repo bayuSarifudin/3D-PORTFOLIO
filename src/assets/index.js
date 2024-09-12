@@ -35,6 +35,7 @@ import tesla from './company/tesla.png'
 import uia from './company/uia.webp'
 import digitalent from './company/digitalent.png'
 import refactory from './company/refactory.webp'
+import stechoq from './company/stechoq.png'
 
 import carrent from './carrent.png'
 import jobit from './jobit.png'
@@ -43,6 +44,7 @@ import uipod from './uipod.png'
 import lontara from './lontara.png'
 import aladinmall from './aladinmall.png'
 import contactMail from './contactMail.svg'
+import desy from './desy.png'
 
 import github from './sosmed/github.png'
 import ig from './sosmed/ig.png'
@@ -93,5 +95,7 @@ export {
 	ig,
 	linkedin,
 	hello,
-	world
+	world,
+	stechoq,
+	desy
 }

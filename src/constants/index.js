@@ -36,7 +36,9 @@ import {
 	linkedin,
 	ig,
 	github,
-	nextjs
+	nextjs,
+	stechoq,
+	desy
 } from '../assets'
 
 export const navLinks = [
@@ -186,6 +188,18 @@ const experiences = [
 			'Build interactive and responsive ui',
 			'Partisipate in Sprint planning and Daily Standup Meeting'
 		]
+	},
+	{
+		title: 'Front-End Software Developer',
+		company_name: 'Stechoq',
+		icon: stechoq,
+		iconBg: '#E6DEDD',
+		date: 'Nov 2023 - Now',
+		points: [
+			"Collaborate with design and backend teams to implement user-friendly web interfaces using modern JavaScript frameworks such as Vue.",
+			"Optimize web applications for maximum speed and scalability by ensuring high-quality, clean, and maintainable code.",
+			"Maintain and improve existing web applications, ensuring responsiveness, cross-browser compatibility, and implementing best practices in UI/UX design."
+		]
 	}
 ]
 
@@ -280,6 +294,27 @@ const projects = [
 		],
 		image: aladinmall,
 		source_code_link: 'https://aladinmall.id/'
+	},
+	{
+		name: 'Desy Setyowati',
+		description:
+			"A personnal portfolio of a senior UI/UX Designer. focused on creating custom designs, components, and animations manually. Each element in this portfolio is uniquely crafted and developed, highlighting creativity in UI/UX and user interactions. Dynamic and functional frontend components are built from scratch with attention to detail, creating a responsive and intuitive user experience. Smooth and interactive animations are also incorporated to enhance the visual experience and provide a modern touch to every page.",
+		tags: [
+			{
+				name: 'React',
+				color: 'blue-text-gradient'
+			},
+			{
+				name: 'tailwindcss',
+				color: 'green-text-gradient'
+			},
+			{
+				name: 'CSS',
+				color: 'pink-text-gradient'
+			},
+		],
+		image: desy,
+		source_code_link: 'https://desysetyo.com/'
 	}
 ]
 
