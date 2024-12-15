@@ -38,7 +38,11 @@ import {
 	github,
 	nextjs,
 	stechoq,
-	desy
+	desy,
+	defaultImg,
+	maka,
+	edc,
+	logo
 } from '../assets'
 
 export const navLinks = [
@@ -190,6 +194,17 @@ const experiences = [
 		]
 	},
 	{
+		title: 'Freelance Front-End Developer',
+		company_name: 'Self-employed',
+		icon: logo,
+		iconBg: '#E6DEDD',
+		date: 'Oktober 2023 - Now',
+		points: [
+			"Develop user-friendly, responsive web applications using modern frameworks like Vue.js, React, or Angular. Ensure cross-browser compatibility, optimize performance, and enhance user experience with clean,maintainable code.",
+			"Work closely with designers and backend developers to translate designs into functional interfaces and integrate APIs seamlessly. Participate in code reviews and follow Agile methodologies for smooth project delivery."
+		]
+	},
+	{
 		title: 'Front-End Software Developer',
 		company_name: 'Stechoq',
 		icon: stechoq,
@@ -315,6 +330,61 @@ const projects = [
 		],
 		image: desy,
 		source_code_link: 'https://desysetyo.com/'
+	},
+	{
+		name: 'Paradex APIs Library',
+		description:
+			"As a freelance developer, I created a custom library to streamline the usage of Paradex APIs, supporting both HTTP and WebSocket protocols. The library simplifies interactions with Paradex by abstracting complex functionalities like authentication, real-time subscriptions, and order management into an intuitive and efficient API. It includes features like automated reconnections for WebSocket, robust error handling, and rate-limiting mechanisms.",
+		tags: [
+			{
+				name: 'Javascript',
+				color: 'blue-text-gradient'
+			},
+		],
+		image: defaultImg,
+		// source_code_link: 'https://desysetyo.com/'
+	},
+	{
+		name: 'MAKA Motors Dashboard',
+		description:
+			"I developed a comprehensive dashboard for an electric motorcycle company to manage their factory operations. The dashboard was built with Vue.js, Pinia for state management, and Bootstrap for styling, enabling real-time monitoring and management of factory workflows. It included features such as inventory tracking, production status updates, and workforce management, offering both a user-friendly interface and efficient control for the management team. The application was designed to optimize the overall performance and streamline operations, ensuring a seamless experience for factory managers.",
+		tags: [
+			{
+				name: 'VUE 3',
+				color: 'blue-text-gradient'
+			},
+			{
+				name: 'bootstrap 5',
+				color: 'green-text-gradient'
+			},
+			{
+				name: 'Pinia',
+				color: 'pink-text-gradient'
+			},
+		],
+		image: maka,
+		// source_code_link: 'https://desysetyo.com/'
+	},
+	{
+		name: 'EDC Kubota',
+		description:
+			"I developed a digital archive management dashboard for a machinery company to organize and manage various design models of their parts. Using Vue 3 and Pinia for state management, the dashboard enables seamless storage, retrieval, and categorization of the company's part designs in an easy-to-use interface. The application includes functionalities like quick search, file categorization, and version control, providing an efficient and scalable solution for managing large volumes of digital assets. It was designed to streamline workflows and improve access to essential design data for engineers and other stakeholders.",
+		tags: [
+			{
+				name: 'VUE 3',
+				color: 'blue-text-gradient'
+			},
+			{
+				name: 'bootstrap 5',
+				color: 'green-text-gradient'
+			},
+			{
+				name: 'Pinia',
+				color: 'pink-text-gradient'
+			},
+		],
+		image: edc,
+		// source_code_link: 'https://desysetyo.com/'
 	}
 ]
 

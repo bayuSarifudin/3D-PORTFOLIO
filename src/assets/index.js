@@ -50,6 +50,10 @@ import github from './sosmed/github.png'
 import ig from './sosmed/ig.png'
 import linkedin from './sosmed/linkedin.png'
 
+import defaultImg from './default.svg'
+import maka from './maka.png'
+import edc from './edc.png'
+
 export {
 	logo,
 	nextjs,
@@ -97,5 +101,8 @@ export {
 	hello,
 	world,
 	stechoq,
-	desy
+	desy,
+	defaultImg,
+	maka,
+	edc,
 }

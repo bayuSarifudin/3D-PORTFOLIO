@@ -17,7 +17,7 @@ const PopupModal = ({ isOpen, onRequestClose }) => {
 	}, [isOpen])
 
 	return (
-		<div className={`fixed top-0 left-0 w-full h-full text-white flex items-center justify-center px-4 ${isOpen ? '' : 'hidden'}`}>
+		<div className={`fixed top-0 left-0 w-full h-full text-black flex items-center justify-center px-4 ${isOpen ? '' : 'hidden'}`}>
 			<div className='fixed inset-0 bg-black opacity-50'></div>
 			<div
 				className='relative z-50 bg-white p-4 flex items-center justify-center flex-col space-y-4 rounded-xl shadow-lg shadow-amber-50 w-full max-w-[480px] bg-primary/90 border-2 border-white'

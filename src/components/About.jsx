@@ -32,7 +32,7 @@ const About = () => {
 			</motion.div>
 
 			<motion.p className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]' variants={fadeIn('', '', 0.1, 1)}>
-				I'm Bayu Sarifudin, <br /> I'm a passionate frontend developer who loves turning designs into captivating web experiences. With a year of
+				I'm Bayu Sarifudin, <br /> I'm a passionate frontend developer who loves turning designs into captivating web experiences. With years of
 				experience, I'm dedicated to creating responsive and user-friendly interfaces. I thrive on solving challenges, collaborating with diverse
 				teams, and staying at the forefront of web development trends. Beyond coding, you'll find me staying active and keeping fit through sports and
 				exercise. Ready for the next exciting project!
